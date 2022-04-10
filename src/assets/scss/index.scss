@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-blue {
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+  }
+}
+
+@import './setting/setting.scss';
+@import './tools/tools.scss';
+@import './generic/generic.scss';
+@import './elements/elements.scss';
+@import './vendor/vendor.scss';
+@import './objects/objects.scss';
+@import './components/components.scss';
+@import './utilities/utilities.scss';
